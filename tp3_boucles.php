@@ -38,7 +38,7 @@ while($j++<=5 && $t==false){
 }
 echo "<hr>";
 $t=false;
-$j=0;
+$j=0; ;
 
 do{
 
@@ -48,8 +48,5 @@ do{
       
     //  $j++;// incrementation par 1 
 }while(++$j<=5 && $t==true);
-
-
-
 
 ?>
