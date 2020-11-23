@@ -1,0 +1,26 @@
+table{
+    width: 800px;
+    background: rgb(241, 240, 240);
+    margin: auto;
+}
+h2{
+    text-align: center;
+    color: rgb(34, 54, 3);
+}
+table th, table td{
+  border: 1px solid black;
+  padding: 10px;  
+  text-align: center;
+}
+thead th{
+    background: black;
+    color: white;
+}
+table tr:nth-child(2n){
+background: green;
+color: white;
+}
+table tr:nth-child(2n+1){
+background: white;
+color: green;
+}
