@@ -11,10 +11,8 @@ $stock=[
     ['sony vaio',10000,1],
     ['acer vaio',10000,1],
 
-
 ];
-
-
+// echo "<tr>"
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -35,14 +33,14 @@ $stock=[
     </tr>
     </thead>
     <tbody>
-   <?php foreach($stock as $p) {  ?>
+   <?php foreach($sto ck as $p) {  ?>
     <tr>
         <td><?php echo $p[0];?></td>
         <td><?php echo $p[1];?></td>
         <td><?= $p[2];?>  </td>
     </tr>
-   <?php } ?>
-   
+    
+    <?php } ?>
    
     </tbody>
 </table>
