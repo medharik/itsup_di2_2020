@@ -1,0 +1,28 @@
+h2{
+    text-align: center;
+    color: rgb(45, 71, 6);
+    padding: 20px;
+    font-size: 2em;
+}
+table {
+margin: auto;
+width: 500px;
+text-align: center;
+
+}
+thead tr{
+    background: black;
+    color: white;
+}
+td,th{
+    padding: 16px;
+    border: 1px solid black;
+}
+tbody tr:nth-child(2n+1){ 
+background-color: rgb(61, 116, 24);
+color: white;
+}
+tbody tr:nth-child(2n){ 
+background-color: rgb(182, 66, 37);
+color: white;
+}
