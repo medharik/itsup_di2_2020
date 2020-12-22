@@ -6,7 +6,6 @@ $stock=[$produit1,$produit2];
 for($i=0;$i<100;$i++){
     $produit=['libelle'=>'produit '.$i,'prix'=>random_int(1000,10000),'images'=>'http://placeimg.com/300/300/tech','qte'=>rand(0,100)];
 $stock[]=$produit;
-
 }
 
 
