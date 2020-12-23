@@ -8,6 +8,7 @@
 </head>
 
 <body>
+
     <form action="ttc.php">
         <input type="text" name="prix" placeholder="Prix">
         <input type="text" name="qte" placeholder="la quantité">
