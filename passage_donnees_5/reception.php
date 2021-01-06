@@ -4,12 +4,8 @@
 // print_r($_GET);
 // echo $_POST['passe'];
 $x = 0;
-
-
-if (isset($y)) echo "x existe<br>";
-if (empty($y)) echo "x est vide";
-
-
+// if (isset($y)) echo "x existe<br>";
+// if (empty($y)) echo "x est vide";
 if (isset($_POST['a']) && isset($_POST['b'])) {
     $a = $_POST['a'];
 
