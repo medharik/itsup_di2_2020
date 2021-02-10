@@ -20,7 +20,7 @@ class Personne
     // protected $pro;
     /* modificateur d'accès : le degré  de visibilité*/
     // le constructeur : une methode initialisant les attrbuts  de l'objet
-    public function __construct($nom = "", $prenom = "inconnu", $age = 0, $genre = "homme")
+    public function __construct($nom = "", $prenom = "", $age = 0, $genre = "homme")
     {
         $this->nom = $nom;
         $this->prenom = $prenom;
